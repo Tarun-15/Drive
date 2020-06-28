@@ -1,0 +1,13 @@
+using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
+
+public class RESET : MonoBehaviour
+{
+    public void buttonclick()
+    {
+        
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Scene name");
+    }
+
+}
